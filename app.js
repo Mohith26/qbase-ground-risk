@@ -56,7 +56,7 @@ async function boot() {
 function initMap() {
   map = L.map('map', { zoomControl: false, preferCanvas: true, attributionControl: false });
   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18 }).addTo(map);
-  L.control.scale({ imperial: false, position: 'topleft' }).addTo(map);
+  L.control.scale({ imperial: false, position: 'bottomleft' }).addTo(map);
   // population layer: 200 m cells, coloured by SORA density band
   const g = L.layerGroup();
   for (const [i, j, p] of POP.cells) {

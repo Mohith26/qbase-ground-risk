@@ -2,14 +2,14 @@
    (optron.com QBase_photo_05): black title bar, dark navy planning panel with
    bevelled blue buttons and element cards, green mission geometry on imagery. */
 :root {
-  --title: #08090b;
-  --panel: #18202c;
+  --title: #12161b;
+  --panel: #1a2133;
   --panel-2: #1e2938;
-  --card: #22314a;
+  --card: #20304a;
   --card-hi: #2b4166;
-  --btn-1: #2f5fa3;
-  --btn-2: #1d3f72;
-  --btn-bd: #4a7cc4;
+  --btn-1: #4f80b8;
+  --btn-2: #305d92;
+  --btn-bd: #79a2d4;
   --txt: #e8edf5;
   --txt-2: #a9b6c9;
   --green: #5bd23a;
@@ -51,7 +51,7 @@ button, select, input { font: inherit; color: inherit; }
 .qb.on { background: linear-gradient(180deg, #3f8a2c, #2a6a1c); border-color: #6cc24a; }
 .grp { background: var(--panel-2); border: 1px solid #2b3a52; border-radius: 3px; padding: 6px; }
 .grp.grow { flex: 1; min-height: 160px; display: flex; flex-direction: column; }
-.grp-h { display: flex; align-items: center; gap: 7px; background: linear-gradient(180deg, #2a4d82, #1b355d); border: 1px solid #3c68a8; padding: 6px 8px; border-radius: 3px; font-size: 12.5px; margin-bottom: 6px; }
+.grp-h { display: flex; align-items: center; gap: 7px; background: linear-gradient(180deg, #4473a6, #2c5584); border: 1px solid #6b97cc; padding: 6px 8px; border-radius: 3px; font-size: 12.5px; margin-bottom: 6px; }
 .grp-h svg { width: 16px; height: 16px; color: #cfe0ff; }
 .new { margin-left: auto; font-size: 9.5px; font-weight: 700; color: #0b1a07; background: var(--green); padding: 1px 5px; border-radius: 2px; }
 .gr { display: flex; flex-direction: column; gap: 6px; padding: 2px 2px 0; }
@@ -105,3 +105,6 @@ button, select, input { font: inherit; color: inherit; }
 .leaflet-control-scale-line { background: rgba(0,0,0,.45); color: #fff; border-color: #fff; }
 .mk { width: 26px; height: 26px; border-radius: 50%; background: #0c1a08; border: 2px solid var(--green); color: var(--green-2); font-weight: 700; font-size: 11px; display: grid; place-items: center; box-shadow: 0 0 0 2px rgba(0,0,0,.4); }
 :focus-visible { outline: 2px solid var(--green); outline-offset: 1px; }
+.leaflet-bottom.leaflet-left { bottom: 176px; left: 54px; }
+.leaflet-control-scale-line { background: transparent; color: #fff; border: 2px solid #fff; border-top: 0; font-weight: 500; text-shadow: 0 1px 2px #000; }
+.legend { top: 10px; }
