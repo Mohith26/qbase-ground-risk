@@ -1,0 +1,696 @@
+{
+ "generated_by": "scripts/evaluate.mjs",
+ "corridor": "A96 corridor survey, Gilching to Landsberg am Lech (illustrative)",
+ "aircraft": {
+  "wingspan": 2.394,
+  "cruise": 17,
+  "enduranceMin": 59,
+  "c2RangeKm": 7.5,
+  "maxSpeed": 35
+ },
+ "scenarios": [
+  {
+   "heightAgl": 60,
+   "m1a": false,
+   "samples": 309,
+   "sites": 83,
+   "maxSegmentKm": 15,
+   "worstSail": "VI",
+   "optimal": {
+    "flights": 7,
+    "kmAtWorst": 8.8,
+    "kmAtSailII": 2.5,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 2.6,
+      "km": 2.6,
+      "max_density": 5700,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 2.6,
+      "to_km": 6.7,
+      "km": 4.1,
+      "max_density": 1400,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 6.7,
+      "to_km": 12.9,
+      "km": 6.2,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 12.9,
+      "to_km": 24.2,
+      "km": 11.3,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 24.2,
+      "to_km": 26.2,
+      "km": 2,
+      "max_density": 75,
+      "igrc": 5,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 26.2,
+      "to_km": 28.7,
+      "km": 2.5,
+      "max_density": 0,
+      "igrc": 3,
+      "grc": 3,
+      "sail": "II"
+     },
+     {
+      "from_km": 28.7,
+      "to_km": 30.7,
+      "km": 2,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     }
+    ]
+   },
+   "greedy": {
+    "flights": 3,
+    "kmAtWorst": 14.1,
+    "kmAtSailII": 0,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 14.1,
+      "km": 14.1,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 14.1,
+      "to_km": 29.1,
+      "km": 15,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 29.1,
+      "to_km": 30.7,
+      "km": 1.6,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     }
+    ]
+   }
+  },
+  {
+   "heightAgl": 60,
+   "m1a": true,
+   "samples": 309,
+   "sites": 83,
+   "maxSegmentKm": 15,
+   "worstSail": "V",
+   "optimal": {
+    "flights": 7,
+    "kmAtWorst": 8.8,
+    "kmAtSailII": 2.5,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 2.6,
+      "km": 2.6,
+      "max_density": 5700,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 2.6,
+      "to_km": 6.7,
+      "km": 4.1,
+      "max_density": 1400,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 6.7,
+      "to_km": 12.9,
+      "km": 6.2,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 12.9,
+      "to_km": 24.2,
+      "km": 11.3,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 24.2,
+      "to_km": 26.2,
+      "km": 2,
+      "max_density": 75,
+      "igrc": 5,
+      "grc": 4,
+      "sail": "III"
+     },
+     {
+      "from_km": 26.2,
+      "to_km": 28.7,
+      "km": 2.5,
+      "max_density": 0,
+      "igrc": 3,
+      "grc": 2,
+      "sail": "II"
+     },
+     {
+      "from_km": 28.7,
+      "to_km": 30.7,
+      "km": 2,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     }
+    ]
+   },
+   "greedy": {
+    "flights": 3,
+    "kmAtWorst": 14.1,
+    "kmAtSailII": 0,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 14.1,
+      "km": 14.1,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 14.1,
+      "to_km": 29.1,
+      "km": 15,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 29.1,
+      "to_km": 30.7,
+      "km": 1.6,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     }
+    ]
+   }
+  },
+  {
+   "heightAgl": 90,
+   "m1a": false,
+   "samples": 309,
+   "sites": 83,
+   "maxSegmentKm": 15,
+   "worstSail": "VI",
+   "optimal": {
+    "flights": 7,
+    "kmAtWorst": 8.8,
+    "kmAtSailII": 2.5,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 2.6,
+      "km": 2.6,
+      "max_density": 5700,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 2.6,
+      "to_km": 6.7,
+      "km": 4.1,
+      "max_density": 1400,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 6.7,
+      "to_km": 12.9,
+      "km": 6.2,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 12.9,
+      "to_km": 24.2,
+      "km": 11.3,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 24.2,
+      "to_km": 26.2,
+      "km": 2,
+      "max_density": 75,
+      "igrc": 5,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 26.2,
+      "to_km": 28.7,
+      "km": 2.5,
+      "max_density": 0,
+      "igrc": 3,
+      "grc": 3,
+      "sail": "II"
+     },
+     {
+      "from_km": 28.7,
+      "to_km": 30.7,
+      "km": 2,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     }
+    ]
+   },
+   "greedy": {
+    "flights": 3,
+    "kmAtWorst": 14.1,
+    "kmAtSailII": 0,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 14.1,
+      "km": 14.1,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 14.1,
+      "to_km": 29.1,
+      "km": 15,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 29.1,
+      "to_km": 30.7,
+      "km": 1.6,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     }
+    ]
+   }
+  },
+  {
+   "heightAgl": 90,
+   "m1a": true,
+   "samples": 309,
+   "sites": 83,
+   "maxSegmentKm": 15,
+   "worstSail": "V",
+   "optimal": {
+    "flights": 7,
+    "kmAtWorst": 8.8,
+    "kmAtSailII": 2.5,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 2.6,
+      "km": 2.6,
+      "max_density": 5700,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 2.6,
+      "to_km": 6.7,
+      "km": 4.1,
+      "max_density": 1400,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 6.7,
+      "to_km": 12.9,
+      "km": 6.2,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 12.9,
+      "to_km": 24.2,
+      "km": 11.3,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 24.2,
+      "to_km": 26.2,
+      "km": 2,
+      "max_density": 75,
+      "igrc": 5,
+      "grc": 4,
+      "sail": "III"
+     },
+     {
+      "from_km": 26.2,
+      "to_km": 28.7,
+      "km": 2.5,
+      "max_density": 0,
+      "igrc": 3,
+      "grc": 2,
+      "sail": "II"
+     },
+     {
+      "from_km": 28.7,
+      "to_km": 30.7,
+      "km": 2,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     }
+    ]
+   },
+   "greedy": {
+    "flights": 3,
+    "kmAtWorst": 14.1,
+    "kmAtSailII": 0,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 14.1,
+      "km": 14.1,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 14.1,
+      "to_km": 29.1,
+      "km": 15,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 29.1,
+      "to_km": 30.7,
+      "km": 1.6,
+      "max_density": 1850,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     }
+    ]
+   }
+  },
+  {
+   "heightAgl": 120,
+   "m1a": false,
+   "samples": 309,
+   "sites": 83,
+   "maxSegmentKm": 15,
+   "worstSail": "VI",
+   "optimal": {
+    "flights": 7,
+    "kmAtWorst": 8.8,
+    "kmAtSailII": 2.2,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 2.6,
+      "km": 2.6,
+      "max_density": 5700,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 2.6,
+      "to_km": 6.7,
+      "km": 4.1,
+      "max_density": 1400,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 6.7,
+      "to_km": 12.9,
+      "km": 6.2,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 12.9,
+      "to_km": 24.2,
+      "km": 11.3,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 24.2,
+      "to_km": 26.2,
+      "km": 2,
+      "max_density": 75,
+      "igrc": 5,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 26.2,
+      "to_km": 28.4,
+      "km": 2.2,
+      "max_density": 0,
+      "igrc": 3,
+      "grc": 3,
+      "sail": "II"
+     },
+     {
+      "from_km": 28.4,
+      "to_km": 30.7,
+      "km": 2.3,
+      "max_density": 3000,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     }
+    ]
+   },
+   "greedy": {
+    "flights": 3,
+    "kmAtWorst": 14.1,
+    "kmAtSailII": 0,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 14.1,
+      "km": 14.1,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 7,
+      "sail": "VI"
+     },
+     {
+      "from_km": 14.1,
+      "to_km": 29.1,
+      "km": 15,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 29.1,
+      "to_km": 30.7,
+      "km": 1.6,
+      "max_density": 3000,
+      "igrc": 6,
+      "grc": 6,
+      "sail": "V"
+     }
+    ]
+   }
+  },
+  {
+   "heightAgl": 120,
+   "m1a": true,
+   "samples": 309,
+   "sites": 83,
+   "maxSegmentKm": 15,
+   "worstSail": "V",
+   "optimal": {
+    "flights": 7,
+    "kmAtWorst": 8.8,
+    "kmAtSailII": 2.2,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 2.6,
+      "km": 2.6,
+      "max_density": 5700,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 2.6,
+      "to_km": 6.7,
+      "km": 4.1,
+      "max_density": 1400,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 6.7,
+      "to_km": 12.9,
+      "km": 6.2,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 12.9,
+      "to_km": 24.2,
+      "km": 11.3,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 24.2,
+      "to_km": 26.2,
+      "km": 2,
+      "max_density": 75,
+      "igrc": 5,
+      "grc": 4,
+      "sail": "III"
+     },
+     {
+      "from_km": 26.2,
+      "to_km": 28.4,
+      "km": 2.2,
+      "max_density": 0,
+      "igrc": 3,
+      "grc": 2,
+      "sail": "II"
+     },
+     {
+      "from_km": 28.4,
+      "to_km": 30.7,
+      "km": 2.3,
+      "max_density": 3000,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     }
+    ]
+   },
+   "greedy": {
+    "flights": 3,
+    "kmAtWorst": 14.1,
+    "kmAtSailII": 0,
+    "plan": [
+     {
+      "from_km": 0,
+      "to_km": 14.1,
+      "km": 14.1,
+      "max_density": 6400,
+      "igrc": 7,
+      "grc": 6,
+      "sail": "V"
+     },
+     {
+      "from_km": 14.1,
+      "to_km": 29.1,
+      "km": 15,
+      "max_density": 4075,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     },
+     {
+      "from_km": 29.1,
+      "to_km": 30.7,
+      "km": 1.6,
+      "max_density": 3000,
+      "igrc": 6,
+      "grc": 5,
+      "sail": "IV"
+     }
+    ]
+   }
+  }
+ ],
+ "headline": {
+  "heightAgl": 120,
+  "m1a": false,
+  "worstSail": "VI",
+  "greedyKmAtWorst": 14.1,
+  "optimalKmAtWorst": 8.8,
+  "reduction": 0.376,
+  "optimalFlights": 7,
+  "greedyFlights": 3,
+  "corridorKm": 30.7
+ }
+}
